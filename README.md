@@ -48,15 +48,20 @@ This will show:
 > **No API keys needed** — the demo mocks the LLM API to simulate downtime.
 
 #### 3. Run the Full Application
+
+> **Note on API Keys:** The API keys have been excluded from this repository for security purposes as they are personal. To run the full application, you will need to provide your own API keys in `.env` files (e.g., Gemini and Clerk keys).
+
 ```bash
 # Terminal 1 — Backend
 cd backend
-uv run server.py
+.\.venv_stable\Scripts\python.exe server.py
 
 # Terminal 2 — Frontend
 cd frontend
-npm install
 npm run dev
+
+# Terminal 3 — Ngrok (for webhooks)
+ngrok http 8000
 ```
 
 #### 4. Verify X-Student-ID Header
