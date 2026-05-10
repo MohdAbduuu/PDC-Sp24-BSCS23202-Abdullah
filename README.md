@@ -49,7 +49,11 @@ This will show:
 
 #### 3. Run the Full Application
 
-> **Note on API Keys:** The API keys have been excluded from this repository for security purposes as they are personal. To run the full application, you will need to provide your own API keys in `.env` files (e.g., Gemini and Clerk keys).
+> **Note on Excluded Files:** For security and repository size limits, the following are **not included** in this upload:
+> - **API Keys & Environment Variables (`.env`):** You will need your own Clerk and Gemini API keys to run the full application.
+> - **Database (`database.db`):** The local SQLite database is omitted. It will be created automatically when you run the backend.
+> - **Virtual Environments (`.venv`, `.venv_stable`):** Please install Python dependencies manually as shown in step 1.
+> - **Node Modules (`node_modules`):** Please run `npm install` in the frontend directory before running the app.
 
 ```bash
 # Terminal 1 — Backend
