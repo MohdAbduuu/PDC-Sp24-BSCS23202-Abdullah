@@ -1,4 +1,4 @@
-# Mohammad Abdullah — BSCS23202
+# Mohammad Abdullah —
 
 ## StudySync: Building Resilient Distributed Systems
 **Course:** Parallel and Distributed Computing (PDC)
@@ -115,7 +115,7 @@ frontend/
 
 Every API response includes:
 ```
-X-Student-ID: BSCS23202
+X-Student-ID: BSCS
 ```
 
 This is enforced by the `StudentIDMiddleware` class in `backend/src/app.py`.
